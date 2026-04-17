@@ -19,7 +19,7 @@ export async function middleware(request: NextRequest) {
   const isAuthenticated = await verifyJwt(jwtSession);
 
   if (!isAuthenticated) {
-    const loginUrl = new URL('admin/login', request.url);
+    const loginUrl = new URL('/admin/login', request.url);
     return NextResponse.redirect(loginUrl);
   }
 
