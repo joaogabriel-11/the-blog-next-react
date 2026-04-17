@@ -1,7 +1,8 @@
 'use server';
 
-import { verifyPassword } from '@/lib/login/manage-login';
+import { createLoginSection, verifyPassword } from '@/lib/login/manage-login';
 import { asyncDelay } from '@/utils/async-delay';
+import { redirect } from 'next/navigation';
 
 type LoginActionState = {
   username: string;
@@ -9,7 +10,16 @@ type LoginActionState = {
 };
 
 export async function loginAction(state: LoginActionState, formData: FormData) {
-  asyncDelay(5000);
+  const allowLogin = Boolean(Number(process.env.ALLOW_LOGIN));
+
+  if (!allowLogin) {
+    return {
+      username: '',
+      error: 'Login não autorizado',
+    };
+  }
+
+  await asyncDelay(4000);
 
   if (!(formData instanceof FormData)) {
     return {
@@ -43,11 +53,6 @@ export async function loginAction(state: LoginActionState, formData: FormData) {
     };
   }
 
-  // TODO : abaixo
-  // Usuario e senha validos
-  // Criar o cookie e redirecionar a pagina
-  return {
-    username: '',
-    error: 'USUARIO LOGADO COM SUCESSO',
-  };
+  await createLoginSection(username);
+  redirect('/admin/post');
 }
