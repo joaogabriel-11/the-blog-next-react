@@ -1,12 +1,21 @@
-import { drizzle } from 'drizzle-orm/better-sqlite3';
+import { drizzle } from 'drizzle-orm/postgres-js';
 import { postsTable } from './schemas';
-import Database from 'better-sqlite3';
-import { resolve } from 'path';
+import postgres from 'postgres';
 
-const sqliteDatabasePath = resolve(process.cwd(), 'db.sqlite3');
-const sqliteDatabase = new Database(sqliteDatabasePath);
+const databaseUrl = process.env.DATABASE_URL;
 
-export const drizzleDb = drizzle(sqliteDatabase, {
+if (!databaseUrl) {
+  throw new Error('DATABASE_URL nao configurada');
+}
+
+const isLocalDatabase = /localhost|127\.0\.0\.1/.test(databaseUrl);
+
+export const postgresClient = postgres(databaseUrl, {
+  prepare: false,
+  ssl: isLocalDatabase ? false : 'require',
+});
+
+export const drizzleDb = drizzle(postgresClient, {
   schema: {
     posts: postsTable,
   },

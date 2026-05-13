@@ -1,5 +1,5 @@
 import { JsonPostRepository } from '@/repositories/post/json-post-repository';
-import { drizzleDb } from '.';
+import { drizzleDb, postgresClient } from '.';
 import { postsTable } from './schemas';
 
 (async () => {
@@ -19,5 +19,7 @@ import { postsTable } from './schemas';
     console.log();
     console.log(e);
     console.log();
+  } finally {
+    await postgresClient.end();
   }
 })();

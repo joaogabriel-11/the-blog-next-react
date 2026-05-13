@@ -80,8 +80,8 @@ export async function updatePostAction(
     };
   }
 
-  revalidateTag('posts');
-  revalidateTag(`post-${post.slug}`);
+  revalidateTag('posts', 'max');
+  revalidateTag(`post-${post.slug}`, 'max');
 
   return {
     formState: makePublicPostFromDb(post),
