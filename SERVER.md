@@ -20,5 +20,9 @@ npm start # Apenas para teste
 Configure a variavel `DATABASE_URL` nas Environment Variables da Vercel usando
 um banco PostgreSQL externo, como Vercel Postgres, Neon ou Supabase.
 
+Para o upload de imagens funcionar em producao, crie tambem um Vercel Blob
+conectado ao projeto. A Vercel adiciona a variavel `BLOB_READ_WRITE_TOKEN`
+automaticamente quando o Blob e conectado ao projeto.
+
 O comando `npm run build` ja executa `drizzle-kit migrate` antes do `next build`,
 garantindo que a tabela `posts` exista antes da prerenderizacao da pagina `/`.
