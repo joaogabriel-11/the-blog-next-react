@@ -13,6 +13,21 @@
 
 <br/>
 
+<p align="center">
+  <a href="https://the-blog-joao.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://github.com/joaogabriel-11/the-blog-next-react">
+    <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/5a8308f6-39e2-4451-9b4c-1bced2d2736e" width="100%" alt="The Blog Demo"/>
+
+<br/>
+
 *A modern blog platform focused on performance, user experience and clean interface.*
 
 </div>
@@ -72,16 +87,6 @@ The platform includes a complete public blog and an administrative dashboard for
 - Responsive Layout
 - Optimized Images
 - SEO Friendly
-
----
-
-# 🎥 Preview
-
-<div align="center">
-
-<img src="https://github.com/user-attachments/assets/5a8308f6-39e2-4451-9b4c-1bced2d2736e"  width="100%" alt="The Blog Demo" />
-
-</div>
 
 ---
 
@@ -236,7 +241,7 @@ git push origin feature/new-feature
 
 # 👨‍💻 Author
 
-**João Gabriel Santos**
+**João Gabriel dos Santos**
 
 GitHub
 
