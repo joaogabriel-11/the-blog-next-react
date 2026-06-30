@@ -4,12 +4,10 @@
 
 ### Modern Full Stack Blog Platform built with **Next.js**, **React**, **TypeScript** and **Tailwind CSS**
 
-<img src="./public/readme/the-blog.gif" width="100%" alt="The Blog Demo"/>
-
 <br/>
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=nextdotjs)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
@@ -81,7 +79,7 @@ The platform includes a complete public blog and an administrative dashboard for
 
 <div align="center">
 
-<img src="./public/readme/demo.gif" width="100%"/>
+<img src="https://github.com/user-attachments/assets/5a8308f6-39e2-4451-9b4c-1bced2d2736e"  width="100%" alt="The Blog Demo" />
 
 </div>
 
@@ -202,11 +200,9 @@ The application was designed to provide a great experience on:
 
 # 📸 Screenshots
 
-> You can add more screenshots here later.
-
 | Home | Admin |
 |------|-------|
-| Image | Image |
+| <img width="2048" height="2160" alt="the-blog-joao vercel app_" src="https://github.com/user-attachments/assets/2a7a966e-a8a5-4ec5-9954-5c533bf517db" /> | <img width="2048" height="2160" alt="the-blog-joao vercel app_admin_login" src="https://github.com/user-attachments/assets/5df652ec-809a-43ab-b6d1-e2274e013b1f" /> |
 
 ---
 
@@ -244,11 +240,11 @@ git push origin feature/new-feature
 
 GitHub
 
-https://github.com/joaogabriel-11
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaogabriel-11)
 
 LinkedIn
 
-(Your LinkedIn)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joaogabriel11)
 
 ---
 
@@ -256,6 +252,6 @@ LinkedIn
 
 ### ⭐ If you liked this project, leave a star on the repository!
 
-</div><img width="1885" height="832" alt="the-blog" src="https://github.com/user-attachments/assets/5a8308f6-39e2-4451-9b4c-1bced2d2736e" />
+</div>
 
 
