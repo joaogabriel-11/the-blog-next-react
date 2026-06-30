@@ -28,7 +28,8 @@
 
 <br/>
 
-*A modern blog platform focused on performance, user experience and clean interface.*
+_A modern blog platform focused on performance, user experience and clean
+interface._
 
 </div>
 
@@ -36,9 +37,11 @@
 
 # 📖 About
 
-**The Blog** is a modern Full Stack application developed with **Next.js App Router**, providing an intuitive experience for both readers and administrators.
+**The Blog** is a modern Full Stack application developed with **Next.js App
+Router**, providing an intuitive experience for both readers and administrators.
 
-The project was built following modern Front-end architecture principles, emphasizing:
+The project was built following modern Front-end architecture principles,
+emphasizing:
 
 - Clean UI
 - Performance
@@ -47,7 +50,8 @@ The project was built following modern Front-end architecture principles, emphas
 - Scalable Structure
 - SEO Optimization
 
-The platform includes a complete public blog and an administrative dashboard for content management.
+The platform includes a complete public blog and an administrative dashboard for
+content management.
 
 ---
 
@@ -92,14 +96,14 @@ The platform includes a complete public blog and an administrative dashboard for
 
 # 🛠 Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| Next.js | React Framework |
-| React | UI Library |
-| TypeScript | Static Typing |
-| TailwindCSS | Styling |
-| ESLint | Code Quality |
-| Vercel | Deployment |
+| Technology  | Description     |
+| ----------- | --------------- |
+| Next.js     | React Framework |
+| React       | UI Library      |
+| TypeScript  | Static Typing   |
+| TailwindCSS | Styling         |
+| ESLint      | Code Quality    |
+| Vercel      | Deployment      |
 
 ---
 
@@ -108,21 +112,25 @@ The platform includes a complete public blog and an administrative dashboard for
 ```text
 src
 │
+├── actions
+|
 ├── app
 │
 ├── components
 │
-├── hooks
+├── db
 │
-├── services
+├── dto
 │
 ├── lib
 │
+├── models
+│
+├── repositories
+│
 ├── utils
 │
-├── styles
-│
-└── types
+└── proxy.ts
 ```
 
 ---
@@ -205,8 +213,8 @@ The application was designed to provide a great experience on:
 
 # 📸 Screenshots
 
-| Home | Admin |
-|------|-------|
+| Home                                                                                                                                                     | Admin                                                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img width="2048" height="2160" alt="the-blog-joao vercel app_" src="https://github.com/user-attachments/assets/2a7a966e-a8a5-4ec5-9954-5c533bf517db" /> | <img width="2048" height="2160" alt="the-blog-joao vercel app_admin_login" src="https://github.com/user-attachments/assets/5df652ec-809a-43ab-b6d1-e2274e013b1f" /> |
 
 ---
@@ -258,5 +266,3 @@ LinkedIn
 ### ⭐ If you liked this project, leave a star on the repository!
 
 </div>
-
-
